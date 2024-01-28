@@ -11,8 +11,8 @@ on:
   pull_request:
     branches: [ "master" ]
 
-automatic tests:
-  build:
+jobs:
+  automatated-tests:
     runs-on: ubuntu-latest
 
     steps:
