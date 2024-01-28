@@ -6,8 +6,11 @@ name: ChessEngine .NET Tests
 
 # When to run this workflow
 on:
+  # Push-event
   push:
     branches: [ "master" ]
+    
+  # PR-event
   pull_request:
     branches: [ "master" ]
 
