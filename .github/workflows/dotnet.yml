@@ -4,11 +4,9 @@
 # Name of the workflow
 name: ChessEngine .NET Tests
 
-# When to run this workflow
-on:
-  # Push-event
+# Run on push % pull requests
+on:  
   push:
-  # PR-event
   pull_request:
   
 jobs:
