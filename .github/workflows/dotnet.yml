@@ -8,12 +8,9 @@ name: ChessEngine .NET Tests
 on:
   # Push-event
   push:
-    branches: [ "master" ]
-    
   # PR-event
   pull_request:
-    branches: [ "master" ]
-
+  
 jobs:
   automatated-tests:
     runs-on: ubuntu-latest
